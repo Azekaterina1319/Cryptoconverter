@@ -55,7 +55,5 @@ currency-bot/
 Для круглосуточной работы разверните на:
  [PythonAnywhere](https://pythonanywhere.com)
 Любом VPS с поддержкой Python
- Лицензия
 MIT License - можно использовать бесплатно как в личных, так и в коммерческих целях
- Контакты
-По вопросам и предложениям [создайте issue](https://github.com/Azekaterina1319/Cryptoconverter)
+ 
