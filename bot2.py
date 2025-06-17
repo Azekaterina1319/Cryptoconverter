@@ -15,8 +15,8 @@ currency_keyboard = ReplyKeyboardMarkup([['USD', 'EUR', 'RUB']], resize_keyboard
 cancel_keyboard = ReplyKeyboardMarkup([['/cancel']], resize_keyboard=True)
 
 # Конфигурация
-TOKEN = "7856928940:AAHStntoNQntKDftls6srKKd5ZlY5MGPpl8"
-EXCHANGE_API_KEY = "8d58d28dae9344a2b7d84c28"
+TOKEN = "Ваш токен с Телеграмм"
+EXCHANGE_API_KEY = "Ваш API ключ"
 API_URL = f"https://v6.exchangerate-api.com/v6/{EXCHANGE_API_KEY}/pair/"
 
 # Данные пользователя (временное хранилище)
@@ -76,7 +76,7 @@ async def convert_amount(update, context):
 
         return SELECT_BASE_CURRENCY
     except ValueError:
-        await update.message.reply_text("Введите число!")
+        await update.message.reply_text("Введите корректное число!")
         return INPUT_AMOUNT
 
 
